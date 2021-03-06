@@ -38,5 +38,5 @@ services:
     restart: always
     volumes:
       - "persist-data:/persist-data"
-    ports:
-      - "1880:1880"
+    #ports:
+    #  - "1880:1880"
